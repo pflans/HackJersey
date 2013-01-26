@@ -1,18 +1,18 @@
 import web
+import view
+import config
 import psycopg2
-
-render = web.template.render('templates/')
-
-conn = psycopg2.connect(database="hacknj", user="postgres", password="secret")
+from view import render
 
 urls = (
-    '/(.*)', 'hacknj'
+    '/', 'index'
 )
-app = web.application(urls, globals())
 
-class hello:
+class index:
     def GET(self):
-        return render.index
+        return render.index()
 
 if __name__ == "__main__":
+    app = web.application(urls, globals())
+    app.internalerror = web.debugerror
     app.run()

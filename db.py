@@ -1,18 +1,4 @@
-import web
-import psycopg2
+import config
 
-render = web.template.render('templates/')
-
-conn = psycopg2.connect(database="hacknj", user="postgres", password="secret")
-
-urls = (
-    '/(.*)', 'hacknj'
-)
-app = web.application(urls, globals())
-
-class hello:
-    def GET(self):
-        return render.index
-
-if __name__ == "__main__":
-    app.run()
+def listing(**k):
+    return config.DB.select('items', **k)
