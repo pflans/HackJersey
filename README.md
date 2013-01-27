@@ -4,9 +4,13 @@ Project Name: Gubr
 Event: HackJersey
 
 Team:
+
 Patrick Murray (@patfmurray)
+
 Eric Sagara (@esagara)
+
 S.P. Sullivan (@spsullivan)
+
 Karl de Vries (@Karl_de_Vries)
 
 
