@@ -1,4 +1,5 @@
 Project Name: Gubr
+==========
 
 Event: HackJersey
 
@@ -32,3 +33,6 @@ Technologies used:
 - Twitter Bootstrap
 - Google Maps API v3
 - Google Fusion
+
+
+This repo is messy. But what else can you expect from a hackathon! :D
