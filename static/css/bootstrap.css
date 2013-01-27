@@ -4337,12 +4337,13 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .brand {
+  font-family: "Prelo Slab"
   display: block;
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: strong;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -5990,21 +5991,22 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 30px;
   margin-bottom: 30px;
+  
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: inherit;
   background-color: #eeeeee;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+
 }
 
 .hero-unit h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   font-size: 60px;
+  font-weight: 400px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
