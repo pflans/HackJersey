@@ -16,7 +16,7 @@ Karl de Vries (@Karl_de_Vries)
 
 Live on Heroku: 
 ==========
-bit.ly/nj_gubr
+http://safe-badlands-7601.herokuapp.com/
 
 Description:
 ==========
